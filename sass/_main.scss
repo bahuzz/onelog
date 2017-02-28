@@ -378,3 +378,33 @@ h1 {
 	right: 60px;
 	top: 145px;
 }
+.text-block {
+	p {
+		margin-bottom: 20px;
+		line-height: 1.4em;
+		i {
+			font-style: italic;
+			font-weight: 600;
+			color: #4B5F78;
+		}
+	}
+	h2 {
+		font-weight: 700;
+		text-transform: uppercase;
+		color: #273583;
+	}
+}
+.img-left-col {
+	float: left;
+	margin-right: 30px;
+}
+.template-img-wrapper {
+	margin-left: 150px;
+	margin-right: 180px;
+	position: relative;
+	z-index: 2;
+}
+.text-right-col {
+	padding: 0 30px;
+	padding-top: 140px;
+}
