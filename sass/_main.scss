@@ -382,6 +382,7 @@ h1 {
 	p {
 		margin-bottom: 20px;
 		line-height: 1.4em;
+		text-align: justify;
 		i {
 			font-style: italic;
 			font-weight: 600;
@@ -398,13 +399,23 @@ h1 {
 	float: left;
 	margin-right: 30px;
 }
+.img-right-col {
+	float: right;
+	margin-left: 30px;
+}
 .template-img-wrapper {
 	margin-left: 150px;
 	margin-right: 180px;
 	position: relative;
 	z-index: 2;
 }
+.template-img-right-wrapper {
+	margin-left: 225px;
+}
 .text-right-col {
 	padding: 0 30px;
 	padding-top: 140px;
+	.template-title {
+		padding-left: 0;
+	}
 }

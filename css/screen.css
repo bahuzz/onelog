@@ -308,7 +308,7 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 .sb-text-descr { font-size: 11px; }
 
-.sidemenu-btn { background: url('../img/icons-scae4392ed4.png') 0 -235px no-repeat; width: 30px; height: 60px; display: inline-block; position: absolute; right: 0; top: 50%; margin-top: -30px; color: #121E2A; text-align: center; cursor: pointer; }
+.sidemenu-btn { background: url('../img/icons-s2bdb587284.png') 0 -236px no-repeat; width: 30px; height: 60px; display: inline-block; position: absolute; right: 0; top: 50%; margin-top: -30px; color: #121E2A; text-align: center; cursor: pointer; }
 .sidemenu-btn:after { content: "\f105"; color: #121E2A; font-size: 45px; position: relative; top: 5px; left: 5px; font-family: "FontAwesome"; cursor: pointer; }
 
 .sidemenu-btn-close:after { content: "\f104"; left: 0; }
@@ -319,7 +319,7 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 .template-wrapper-menu-open { margin-left: 330px; }
 
-.f35 { display: inline-block; background: url('../img/icons-scae4392ed4.png') 0 0 no-repeat; width: 437px; height: 143px; position: absolute; top: 30px; right: 40px; }
+.f35 { display: inline-block; background: url('../img/icons-s2bdb587284.png') 0 0 no-repeat; width: 439px; height: 144px; position: absolute; top: 30px; right: 40px; }
 
 .template-title { color: #F9B000; padding-left: 30px; margin-bottom: 70px; }
 
@@ -338,12 +338,17 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 .plain { position: absolute; right: 60px; top: 145px; }
 
-.text-block p { margin-bottom: 20px; line-height: 1.4em; }
+.text-block p { margin-bottom: 20px; line-height: 1.4em; text-align: justify; }
 .text-block p i { font-style: italic; font-weight: 600; color: #4B5F78; }
 .text-block h2 { font-weight: 700; text-transform: uppercase; color: #273583; }
 
 .img-left-col { float: left; margin-right: 30px; }
 
+.img-right-col { float: right; margin-left: 30px; }
+
 .template-img-wrapper { margin-left: 150px; margin-right: 180px; position: relative; z-index: 2; }
 
+.template-img-right-wrapper { margin-left: 225px; }
+
 .text-right-col { padding: 0 30px; padding-top: 140px; }
+.text-right-col .template-title { padding-left: 0; }
