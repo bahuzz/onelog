@@ -253,7 +253,7 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 * { box-sizing: border-box; }
 
-.about { background-image: url(../img/about.jpg); background-size: cover; }
+.about { background-image: url(../img/about.jpg); -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .title-block { text-align: center; }
 
@@ -365,3 +365,14 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 .vt-title { font-weight: bold; color: #F9B000; text-transform: uppercase; margin-bottom: 5px; }
 
 .vt-block { font-size: 11px; line-height: 1.3em; }
+
+.login-page { background-image: url(../img/login-background.jpg); -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+.login-block { width: 500px; position: absolute; left: 50%; top: 50%; margin-left: -250px; margin-top: -150px; }
+.login-block .page-title { text-align: center; }
+
+.login-row { padding: 15px; height: 50px; border: 2px solid #fff; background: rgba(255, 255, 255, 0.2); margin-bottom: 30px; }
+.login-row label { color: #FFF; text-transform: uppercase; font-weight: bold; margin-right: 10px; }
+.login-row input { color: #000; font-weight: bold; background: none; border: none; }
+
+.btn { border: 2px solid #fff; background: rgba(255, 255, 255, 0.2); padding: 10px 15px; text-transform: uppercase; font-weight: 700; color: #FFF; float: right; font-family: 'Open Sans', sans-serif; cursor: pointer; }
