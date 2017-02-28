@@ -322,7 +322,7 @@ h1 {
 	    -ms-transition: .3s all;
 	     -o-transition: .3s all;
 	        transition: .3s all;
-	    background: url(../img/stripe.png) 0 100% no-repeat;
+	    background: url(../img/bottom.png) 0 100% no-repeat;
 }
 .template-wrapper-menu-open {
 	margin-left: 330px;
@@ -418,4 +418,35 @@ h1 {
 	.template-title {
 		padding-left: 0;
 	}
+}
+///////////////////// video //////////////////////////
+.template-wrapper-video {
+	background-color: #0f111d;
+}
+.video-content-wrapper {
+	margin-left: 375px;
+	margin-right: 200px;
+	padding-top: 135px;
+	padding-bottom: 100px;
+	.template-title {
+		margin-bottom: 40px;
+		padding-left: 0;
+	}
+}
+.video-player {
+	margin-bottom: 45px;
+}
+.video-text {
+	width: 50%;
+	color: #FFF;
+}
+.vt-title {
+	font-weight: bold;
+	color: #F9B000;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+.vt-block {
+	font-size: 11px;
+	line-height: 1.3em;
 }
