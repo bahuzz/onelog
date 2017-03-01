@@ -422,8 +422,8 @@ h1 {
 .template-img-wrapper {
 	margin-left: 180px;
 	margin-right: 150px;
-	position: relative;
-	z-index: 2;
+	// position: relative;
+	// z-index: 2;
 }
 .template-img-right-wrapper {
 	margin-left: 225px;
@@ -571,6 +571,10 @@ h1 {
 	.img-left-col {
 		width: 50%;
 	}
+	.text-right-col {
+		width: 45%;
+		float: left;
+	}
 }
 @media (max-width: 1600px) {
 	.template-content {
@@ -581,6 +585,9 @@ h1 {
 		img {
 			max-width: 500px;
 		}
+	}
+	.template-img-wrapper {
+		margin-right: 50px;
 	}
 }
 @media (max-width: 1279px) {
@@ -596,6 +603,15 @@ h1 {
 	}
 	.title-col {
 		width: 100%;
+	}
+	.img-left-col {
+		float: none;
+		width: 100%;
+	}
+	.text-right-col {
+		float: none;
+		width: 100%;
+		padding-top: 30px;
 	}
 }
 @media (max-width: 1023px) {
@@ -623,7 +639,10 @@ h1 {
 	.f35 {
 		max-width: 50%;
 	}
-	
+	.template-img-wrapper {
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 @media (max-width: 479px) {
 	.template-title {
