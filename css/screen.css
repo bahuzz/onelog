@@ -231,7 +231,7 @@ sprites locations are 0 -56px/-20px -56px/-40px -56px/-60px -56px (light) and -8
 
 .mCS-dark-thin > .mCSB_scrollTools .mCSB_buttonRight { background-position: -80px -56px; }
 
-h1 { font: 48px/56px "anklepan",arial,sans-serif; }
+h1 { font: 48px/56px "anklepan",arial,sans-serif; color: #f9b000; }
 
 .tar { text-align: right; }
 
@@ -242,6 +242,8 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 * { box-sizing: border-box; }
 
 .about { background-image: url(../img/about.jpg); -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
+
+.page { background-image: url(../img/about.jpg); -webkit-background-size: cover; -o-background-size: cover; background-size: cover; }
 
 .title-block { text-align: center; }
 
@@ -388,12 +390,24 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 .mCSB_scrollTools:after { content: ""; width: 30px; height: 2px; background: #FFF; position: absolute; left: 0; top: 280px; }
 
+.page { padding-top: 240px; }
+
+.page-wrapper { background: #FFF; padding-left: 70px; padding-right: 70px; padding-top: 50px; padding-bottom: 50px; margin-left: 440px; margin-right: 440px; margin-bottom: 40px; }
+.page-wrapper h1 { margin-bottom: 20px; }
+.page-wrapper p { line-height: 1.4em; margin-bottom: 25px; }
+.page-wrapper ul { margin-bottom: 25px; }
+.page-wrapper li { margin-bottom: 10px; }
+.page-wrapper a { text-transform: uppercase; font-weight: bold; color: #000; text-decoration: none; position: relative; }
+.page-wrapper a:hover { color: #F9B000; }
+.page-wrapper a:hover:before { content: "\f105"; font-family: "FontAwesome"; position: absolute; left: -12px; font-size: 16px; top: -1px; }
+
 @media (max-width: 1830px) { .img-left-col { width: 50%; }
   .img-right-col { width: 48%; }
   .img-right-col img { max-width: 100%; } }
 @media (max-width: 1600px) { .template-content { padding-left: 70px; padding-right: 70px; }
   .plain img { max-width: 500px; }
-  .template-img-wrapper { margin-right: 50px; } }
+  .template-img-wrapper { margin-right: 50px; }
+  .page-wrapper { margin-right: 100px; margin-left: 100px; } }
 @media (max-width: 1279px) { .t-col { width: 100%; border: none; }
   .pt80 { padding-top: 0; }
   .template-content { padding-top: 330px; }
@@ -412,12 +426,15 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
   .template-img-right-wrapper { margin-left: 0; }
   .img-right-col { margin-left: 0; }
   .video-content-wrapper { margin-left: 20px; margin-right: 20px; }
-  .login-block { width: 100%; left: 0; padding-left: 30px; padding-right: 30px; margin-left: 0; } }
+  .login-block { width: 100%; left: 0; padding-left: 30px; padding-right: 30px; margin-left: 0; }
+  .page { padding-top: 100px; }
+  .page-wrapper { margin-left: 10px; margin-right: 10px; padding: 20px; } }
 @media (max-width: 479px) { .template-title { margin-bottom: 20px; }
   .template-title h1 { font-size: 30px; line-height: 36px; }
   .template-content { padding-top: 230px; }
   .video-text { width: 100%; }
   .video-content-wrapper { padding-top: 65px; }
-  .login-row input { width: 50%; } }
+  .login-row input { width: 50%; }
+  .page-wrapper h1 { font-size: 30px; line-height: 36px; } }
 @media (max-width: 360px) { .template-content { padding-top: 180px; }
   .plain { top: 60px; } }

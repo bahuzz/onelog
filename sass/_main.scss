@@ -1,6 +1,7 @@
 ///////////////// main /////////////////////
 h1 {
 	font: 48px/56px "anklepan",arial,sans-serif;
+	color: #f9b000;
 }
 
 .tar {
@@ -17,6 +18,12 @@ h1 {
 }
 ///////////////// header ////////////////////
 .about {
+	background-image: url(../img/about.jpg);
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+.page {
 	background-image: url(../img/about.jpg);
 	-webkit-background-size: cover;
 	     -o-background-size: cover;
@@ -569,6 +576,51 @@ h1 {
 	left: 0;
 	top: 280px;
 }
+////////////////////////////// page /////////////////////////
+.page {
+	padding-top: 240px;
+}
+.page-wrapper {
+	background: #FFF;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 440px;
+	margin-right: 440px;
+	margin-bottom: 40px;
+	h1 {
+		margin-bottom: 20px;
+	}
+	p {
+		line-height: 1.4em;
+		margin-bottom: 25px;
+	}
+	ul {
+		margin-bottom: 25px;
+	}
+	li {
+		margin-bottom: 10px;
+	}
+	a {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #000;
+		text-decoration: none;
+		position: relative;
+		&:hover {
+			color: #F9B000;
+			&:before {
+					content: "\f105";
+					font-family: "FontAwesome";
+					position: absolute;
+					left: -12px;
+					font-size: 16px;
+					top: -1px;
+					}
+		}
+	}
+}
 ////////////////////////////// responsive /////////////////////////
 @media (max-width: 1830px) {
 	.img-left-col {
@@ -596,6 +648,10 @@ h1 {
 	}
 	.template-img-wrapper {
 		margin-right: 50px;
+	}
+	.page-wrapper {
+		margin-right: 100px;
+		margin-left: 100px;
 	}
 }
 @media (max-width: 1279px) {
@@ -676,6 +732,14 @@ h1 {
 		padding-right: 30px;
 		margin-left: 0;
 	}
+	.page {
+		padding-top: 100px;
+	}
+	.page-wrapper {
+		margin-left: 10px;
+		margin-right: 10px;
+		padding: 20px;
+	}
 }
 @media (max-width: 479px) {
 	.template-title {
@@ -698,6 +762,12 @@ h1 {
 	.login-row {
 		input {
 			width: 50%;
+		}
+	}
+	.page-wrapper {
+		h1 {
+			font-size: 30px;
+			line-height: 36px;
 		}
 	}
 }
