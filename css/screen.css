@@ -401,6 +401,10 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; color: #f9b000; }
 .page-wrapper a:hover { color: #F9B000; }
 .page-wrapper a:hover:before { content: "\f105"; font-family: "FontAwesome"; position: absolute; left: -12px; font-size: 16px; top: -1px; }
 
+.sidemenu-no-icons.sidemenu-open .sb-img { display: none; }
+.sidemenu-no-icons.sidemenu-open .sb-text { margin-left: 0; }
+.sidemenu-no-icons.sidemenu-open .sidemenu-block a:after { width: 0; height: 0; }
+
 @media (max-width: 1830px) { .img-left-col { width: 50%; }
   .img-right-col { width: 48%; }
   .img-right-col img { max-width: 100%; } }

@@ -621,6 +621,25 @@ h1 {
 		}
 	}
 }
+.sidemenu-no-icons.sidemenu-open {
+	.sb-img {
+		display: none;
+	}
+	.sb-text {
+		margin-left: 0;
+	}
+	.sidemenu-block {
+		a {
+			&:after {
+				width: 0;
+				height: 0;
+			}
+		}
+	}
+	
+} 
+
+
 ////////////////////////////// responsive /////////////////////////
 @media (max-width: 1830px) {
 	.img-left-col {
