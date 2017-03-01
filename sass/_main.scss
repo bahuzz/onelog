@@ -629,6 +629,9 @@ h1 {
 	.template-wrapper-menu-open {
 		margin-left: 0;
 	}
+	.login-block {
+		margin-left: -150px;
+	}
 }
 @media (max-width: 767px) {
 	.sidemenu {
@@ -666,6 +669,13 @@ h1 {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+	.login-block {
+		width: 100%;
+		left: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-left: 0;
+	}
 }
 @media (max-width: 479px) {
 	.template-title {
@@ -684,6 +694,11 @@ h1 {
 	}
 	.video-content-wrapper {
 		padding-top: 65px;
+	}
+	.login-row {
+		input {
+			width: 50%;
+		}
 	}
 }
 @media (max-width: 360px) {
