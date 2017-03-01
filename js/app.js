@@ -4,5 +4,11 @@ $(document).ready(function() {
 		$('.template-wrapper').toggleClass('template-wrapper-menu-open');
 		$(this).toggleClass('sidemenu-btn-close');
 	});
-	$(".sidemenu-list").mCustomScrollbar();
+	$(".sidemenu-list").mCustomScrollbar({
+		scrollButtons:{
+			enable:true,
+			scrollType: "stepped",
+			scrollAmount: 100
+		}
+	});
 });
