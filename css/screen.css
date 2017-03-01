@@ -307,11 +307,14 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 
 .template-wrapper-menu-open { margin-left: 300px; }
 
-.f35 { display: inline-block; background: url('../img/icons-s2bdb587284.png') 0 0 no-repeat; width: 439px; height: 144px; position: absolute; top: 30px; right: 40px; }
+.f35 { display: inline-block; width: 439px; height: 144px; background: url(../img/icons/f35.png) 0 0 no-repeat; position: absolute; top: 30px; right: 40px; -webkit-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; }
 
 .template-title { color: #F9B000; padding-left: 30px; margin-bottom: 70px; }
 
+.title-col { width: 50%; }
+
 .t-col { float: left; width: 50%; padding: 0 30px; }
+.t-col img { max-width: 100%; }
 
 .t-col-1 { border-right: 3px solid #F9B000; }
 
@@ -331,6 +334,7 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 .text-block h2 { font-weight: 700; text-transform: uppercase; color: #273583; }
 
 .img-left-col { float: left; margin-right: 30px; }
+.img-left-col img { max-width: 100%; }
 
 .img-right-col { float: right; margin-left: 30px; }
 
@@ -382,3 +386,22 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; }
 .mCSB_scrollTools .mCSB_buttonUp:after { content: "\f106"; font-family: "FontAwesome"; font-size: 30px; position: relative; left: -1px; top: -3px; }
 
 .mCSB_scrollTools:after { content: ""; width: 30px; height: 2px; background: #FFF; position: absolute; left: 0; top: 280px; }
+
+@media (max-width: 1830px) { .img-left-col { width: 50%; } }
+@media (max-width: 1600px) { .template-content { padding-left: 70px; padding-right: 70px; }
+  .plain img { max-width: 500px; } }
+@media (max-width: 1279px) { .t-col { width: 100%; border: none; }
+  .pt80 { padding-top: 0; }
+  .template-content { padding-top: 330px; }
+  .title-col { width: 100%; } }
+@media (max-width: 1023px) { .template-wrapper-menu-open { margin-left: 0; } }
+@media (max-width: 767px) { .sidemenu { display: none; }
+  .template-content { margin-left: 0; padding-left: 0; padding-right: 0; padding-top: 270px; }
+  .plain { top: 79px; right: 10px; }
+  .plain img { max-width: 100%; }
+  .f35 { max-width: 50%; } }
+@media (max-width: 479px) { .template-title { margin-bottom: 20px; }
+  .template-title h1 { font-size: 30px; line-height: 36px; }
+  .template-content { padding-top: 230px; } }
+@media (max-width: 360px) { .template-content { padding-top: 180px; }
+  .plain { top: 60px; } }
