@@ -15,12 +15,20 @@ $(document).ready(function() {
 
 	if (document.body.clientWidth > '1279') {
 		$(".text-right-col").mCustomScrollbar({
-		scrollButtons:{
-			enable:true,
-			scrollType: "stepped",
-			scrollAmount: 100
-		}
-	});
+			scrollButtons:{
+				enable:true,
+				scrollType: "stepped",
+				scrollAmount: 100
+			}
+		});
+
+		$(".text-left-col").mCustomScrollbar({
+			scrollButtons:{
+				enable:true,
+				scrollType: "stepped",
+				scrollAmount: 100
+			}
+		});
 	};
 	
 });
