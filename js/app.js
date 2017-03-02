@@ -12,4 +12,15 @@ $(document).ready(function() {
 			scrollAmount: 100
 		}
 	});
+
+	if (document.body.clientWidth > '1279') {
+		$(".text-right-col").mCustomScrollbar({
+		scrollButtons:{
+			enable:true,
+			scrollType: "stepped",
+			scrollAmount: 100
+		}
+	});
+	};
+	
 });

@@ -335,7 +335,7 @@ h1 {
 	    background: url(../img/bottom.png) 0 100% no-repeat;
 }
 .template-wrapper-menu-open {
-	margin-left: 300px;
+	// margin-right: -300px;
 }
 .f35 {
 	display: inline-block;
@@ -417,9 +417,10 @@ h1 {
 }
 .img-left-col {
 	float: left;
-	margin-right: 30px;
+	width: 50%;
 	img {
-		max-width: 100%;
+		width: auto;
+		height: 100vh;
 	}
 }
 .img-right-col {
@@ -438,6 +439,10 @@ h1 {
 .text-right-col {
 	padding: 0 30px;
 	padding-top: 140px;
+	float: right;
+	width: 50%;
+	max-height: 90vh;
+	//overflow-y: scroll ;
 	.template-title {
 		padding-left: 0;
 	}
@@ -534,6 +539,8 @@ h1 {
 	background: #FFF;
 	opacity: 1;
 	text-align: center;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	        box-shadow: 0 0 3px rgba(0,0,0,.5);
 }
 .mCustomScrollBox > .mCSB_scrollTools {
 	width: 30px;
@@ -577,7 +584,7 @@ h1 {
 	top: 280px;
 }
 ////////////////////////////// page /////////////////////////
-.page {
+.page-normal {
 	padding-top: 240px;
 }
 .page-wrapper {
@@ -639,7 +646,6 @@ h1 {
 	
 } 
 
-
 ////////////////////////////// responsive /////////////////////////
 @media (max-width: 1830px) {
 	.img-left-col {
@@ -687,17 +693,30 @@ h1 {
 	.title-col {
 		width: 100%;
 	}
-	.img-left-col, 
-	.img-right-col {
-		float: none;
-		width: 100%;
-	}
+	
 	.text-right-col {
 		padding-top: 30px;
+		width: 100%;
+		float: none;
+		max-height: 1000vh;
+		margin-bottom: 30px;
+	}
+	.img-left-col {
+		width: 100%;
+		img {
+			height: auto;
+			max-width: 100%;
+		}
 	}
 	.video-content-wrapper {
 		margin-left: 230px;
 		margin-right: 60px;
+	}
+	html,body {
+		overflow: visible;
+	}
+	.template-img-wrapper {
+		margin-right: 0;
 	}
 }
 @media (max-width: 1023px) {
