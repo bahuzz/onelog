@@ -659,6 +659,14 @@ h1 {
 .template-wrapper-static {
 	margin-left: 480px;
 	margin-right: 50px;
+	-webkit-transition: .3s all;
+	   -moz-transition: .3s all;
+	    -ms-transition: .3s all;
+	     -o-transition: .3s all;
+	        transition: .3s all;
+}
+.template-wrapper-static-close {
+	margin-left: 180px;
 }
 .template-wrapper-static-r {
 	margin-right: 0;

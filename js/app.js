@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$('.sidemenu-btn').on('click',function(){
 		$('.sidemenu').toggleClass('sidemenu-closed');
 		$('.sidemenu').toggleClass('sidemenu-open');
-		$('.template-wrapper').toggleClass('template-wrapper-menu-open');
+		$('.template-wrapper-static').toggleClass('template-wrapper-static-close');
 		$(this).toggleClass('sidemenu-btn-close');
 	});
 	$(".sidemenu-list").mCustomScrollbar({

@@ -406,7 +406,9 @@ h1 { font: 48px/56px "anklepan",arial,sans-serif; color: #f9b000; }
 .sidemenu-no-icons.sidemenu-open .sb-text { margin-left: 0; }
 .sidemenu-no-icons.sidemenu-open .sidemenu-block a:after { width: 0; height: 0; }
 
-.template-wrapper-static { margin-left: 480px; margin-right: 50px; }
+.template-wrapper-static { margin-left: 480px; margin-right: 50px; -webkit-transition: .3s all; -moz-transition: .3s all; -ms-transition: .3s all; -o-transition: .3s all; transition: .3s all; }
+
+.template-wrapper-static-close { margin-left: 180px; }
 
 .template-wrapper-static-r { margin-right: 0; }
 
