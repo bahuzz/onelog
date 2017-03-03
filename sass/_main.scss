@@ -320,8 +320,8 @@ h1 {
 }
 ///////////////////////////////// template-content ///////////////////////////
 .template-content {
-	margin-left: 150px;
-	padding-left: 190px;
+	margin-left: 0px;
+	padding-left: 20px;
 	padding-right: 180px;
 	padding-top: 200px;
 	min-height: 100%;
@@ -356,6 +356,7 @@ h1 {
 }
 .title-col {
 	width: 50%;
+	padding-left: 30px;
 }
 .t-col {
 	float: left;
@@ -463,7 +464,7 @@ h1 {
 	background-color: #0f111d;
 }
 .video-content-wrapper {
-	margin-left: 375px;
+	margin-left: 75px;
 	margin-right: 200px;
 	padding-top: 135px;
 	padding-bottom: 100px;
@@ -658,7 +659,7 @@ h1 {
 } 
 .template-wrapper-static {
 	margin-left: 480px;
-	margin-right: 50px;
+	margin-right: 0px;
 	-webkit-transition: .3s all;
 	   -moz-transition: .3s all;
 	    -ms-transition: .3s all;
@@ -746,10 +747,7 @@ h1 {
 			max-width: 100%;
 		}
 	}
-	.video-content-wrapper {
-		margin-left: 230px;
-		margin-right: 60px;
-	}
+
 	html,body {
 		overflow: visible;
 	}
