@@ -656,7 +656,13 @@ h1 {
 	}
 	
 } 
-
+.template-wrapper-static {
+	margin-left: 480px;
+	margin-right: 50px;
+}
+.template-wrapper-static-r {
+	margin-right: 0;
+}
 ////////////////////////////// responsive /////////////////////////
 
 @media (max-width: 1600px) {
@@ -675,6 +681,18 @@ h1 {
 	.page-wrapper {
 		margin-right: 100px;
 		margin-left: 100px;
+	}
+	.template-wrapper-static {
+		margin-left: 320px;
+		.sidemenu {
+			width: 320px;
+		}
+		.mCSB_container {
+			padding-left: 60px;
+		}
+		.sidemenu-list {
+			padding-right: 30px;
+		}
 	}
 }
 @media (max-width: 1279px) {
@@ -734,6 +752,27 @@ h1 {
 		margin-left: 180px;
 	}
 }
+@media (max-width: 1099px) {
+	.sidemenu {
+		display: none;
+	}
+	.template-wrapper-static {
+		margin-left: 0;
+		margin-right: 0;
+	} 
+	.video-content-wrapper {
+		margin-left: 60px;
+	}
+	.template-img-wrapper {
+		margin-left: 60px;
+	}
+	.template-img-right-wrapper {
+		margin-left: 60px;
+	}
+	.template-content {
+		margin-left: 0;
+	}
+}
 @media (max-width: 1023px) {
 	.template-wrapper-menu-open {
 		margin-left: 0;
@@ -743,9 +782,7 @@ h1 {
 	}
 }
 @media (max-width: 767px) {
-	.sidemenu {
-		display: none;
-	}
+	
 	.template-content {
 		margin-left: 0;
 		padding-left: 0;
